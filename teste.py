@@ -17,7 +17,7 @@ enemies = []
 bullets = []
 
 def create_enemies():
-    """Create a grid of enemies that scales with wave number"""
+    #Create a grid of enemies that scales with wave number
     rows = min(3 + wave // 2, 6)  # Increase rows every 2 waves, max 6
     cols = min(5 + wave // 3, 12)  # Increase columns every 3 waves, max 12
     
