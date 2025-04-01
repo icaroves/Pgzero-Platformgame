@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Pygame Zero",
+        "type": "debugpy",
+        "request": "launch",
+        "program": "${workspaceFolder}/platformgame.py",  // Substitua 'game.py' pelo nome do seu arquivo principal
+        "console": "integratedTerminal",
+        "env": {
+          "PYGAME_ZERO": "true"
+        }
+      }
+    ]
+  }
+  
